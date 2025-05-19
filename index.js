@@ -9,7 +9,7 @@ const token = process.env.TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 // Liste des administrateurs (utilise des IDs Telegram des admins)
-const admins = [7119930360, 8031529347]; // Remplace avec les IDs Telegram des admins
+const admins = [7119930360]; // Remplace avec les IDs Telegram des admins
 
 // Message de bienvenue (pour la commande /start)
 let startMessage = "Bienvenue sur mon bot Telegram !";
